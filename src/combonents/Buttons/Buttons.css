@@ -1,0 +1,42 @@
+.button{
+    display: inline-block;
+    border-radius: var(--border-radius-primary);
+}
+
+.primary-btn a{
+    font-size: 14px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    display: inline-block;
+    padding: 13px 30px; 
+    border-radius: var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;   
+}
+
+
+.primary-btn a:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+
+}
+
+.Secandry-btn a{
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    display: inline-block;
+    padding: 13px 30px; 
+    border-radius: var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.Secandry-btn a:hover{
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
